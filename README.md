@@ -25,9 +25,11 @@ Python | Streamlit | scikit-learn | Pandas | NumPy | Plotly
 git clone https://github.com/TIA1106/spotify_recommendation_engine.git
 cd spotify_recommendation_engine
 python -m venv venv
+```
 # Activate environment:
 # Windows: venv\Scripts\activate
 # Mac/Linux: source venv/bin/activate
+```bash
 pip install -r requirements.txt
 py -m streamlit run app.py
 ```
